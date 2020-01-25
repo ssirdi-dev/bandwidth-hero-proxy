@@ -2,7 +2,7 @@
   "name": "bdh",
   "version": 2,
   "builds": [
-    {  "src": "server.js", "use": "@now/node-server", "config": { "maxLambdaSize": "50mb" } }
+    {  "src": "server.js", "use": "@now/node@canary", "config": { "maxLambdaSize": "50mb" } }
   ],
   "routes": [
     {
