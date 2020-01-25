@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 'use strict'
+
+process.binding('http_parser').HTTPParser = require('http-parser-js').HTTPParser
 const app = require('express')()
 const authenticate = require('./src/authenticate')
 const params = require('./src/params')
