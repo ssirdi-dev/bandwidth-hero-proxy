@@ -7,6 +7,9 @@ const bypass = require('./bypass')
 const copyHeaders = require('./copyHeaders')
 
 function proxy(req, res) {
+  if (req.headers['transfer-encoding'] === 'chunked') {
+    delete req.headers['content-length'];
+  }
   request.get(
     req.params.url,
     {
