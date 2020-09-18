@@ -1,3 +1,4 @@
+process.binding('http_parser').HTTPParser = require('http-parser-js').HTTPParser
 const request = require('request')
 const pick = require('lodash').pick
 const shouldCompress = require('./shouldCompress')
