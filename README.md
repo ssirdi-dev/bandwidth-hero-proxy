@@ -3,7 +3,7 @@
 [![NSP Status](https://nodesecurity.io/orgs/bandwidth-hero/projects/1f035cf0-00f2-43db-9bc0-8e39adb24642/badge)](https://nodesecurity.io/orgs/bandwidth-hero/projects/1f035cf0-00f2-43db-9bc0-8e39adb24642)
 
 This data compression service is used by
-[Bandwidth Hero](https://github.com/ayastreb/bandwidth-hero) browser extension. It compresses given
+[Bandwidth Hero](https://github.com/amsaid/bandwidth-hero) browser extension. It compresses given
 image to low-res [WebP](https://developers.google.com/speed/webp/) or JPEG image. Optionally it also
 converts image to greyscale to save even more data.
 
@@ -19,7 +19,7 @@ and user's IP address through to the origin host.
 
 You can deploy this service to Heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ayastreb/bandwidth-hero-proxy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/amsaid/bandwidth-hero-proxy)
 
 [![Deploy to Heroku guide](http://img.youtube.com/vi/y3tkYEXAics/0.jpg)](http://www.youtube.com/watch?v=y3tkYEXAics)
 
