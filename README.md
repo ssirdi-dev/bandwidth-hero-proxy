@@ -29,7 +29,3 @@ Data compression service is a Node.js app which you can run on any server that s
 Check out
 [this guide](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04)
 on how to setup Node.js on Ubuntu.
-
-DigitalOcean also provides an
-[easy way](https://www.digitalocean.com/products/one-click-apps/node-js/) to setup a server ready to
-host Node.js apps.
